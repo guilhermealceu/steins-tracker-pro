@@ -26,7 +26,7 @@
 
 ## 📦 Instalação
 
-- Baixe o instalador mais recente na aba *Releases* do GitHub
+- Baixe o instalador mais recente na aba *[Releases](https://github.com/guilhermealceu/steins-tracker-pro/releases)* do GitHub
 - Execute e siga as instruções
 - O app inicia automaticamente com o sistema
 
