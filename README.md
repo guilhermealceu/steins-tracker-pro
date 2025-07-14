@@ -1,43 +1,42 @@
 # 🕹️ Steins;Tracker
 
-**Steins;Tracker** é um aplicativo desktop para Windows que registra automaticamente o tempo que você passa em jogos e exibe estatísticas detalhadas em um painel interativo e visual.
+**Steins;Tracker** is a desktop application for Windows that automatically records your gaming time and displays detailed statistics in an interactive, visual dashboard.
 
-## ✨ Funcionalidades Principais
+## ✨ Main Features
 
-- ⏱️ **Monitoramento automático de jogos** em segundo plano
-- 📊 **Dashboard completo** com:
-  - Gráficos de tempo jogado
-  - Média diária
-  - Progresso da meta de horas
-  - Heatmap anual de atividade
-- 🎮 **Gerenciador de jogos**:
-  - Adição manual ou por scanner de pastas
-  - Nomes amigáveis e ícones personalizados
-- 📁 **Registro de sessões** com logs exportáveis (.csv)
-- 🧠 **Estatísticas por jogo**: tempo total, sessões, última jogada e média
-- 🎨 **Interface Personalizável**:
-  - Wallpapers por página
-  - Temas e efeitos visuais (blur, opacidade)
-- 💾 **Armazenamento local** dos dados (sem nuvem)
-- 🖼️ **Dashboard PWA responsivo** com status do sistema em tempo real (CPU, RAM, GPU, rede, ping)
-- 🛠️ **Atualizações automáticas** via GitHub Releases
-- 📡 **Acesso pelo celular via QR Code local**
-- 📦 **Instalador único** com servidor e monitor local embutidos
+- ⏱️ **Automatic game monitoring** in the background
+- 📊 **Complete dashboard** with:
+- Time played graphs
+- Daily average
+- Hours goal progress
+- Annual activity heatmap
+- 🎮 **Game manager**:
+- Manual or folder scanner addition
+- Friendly names and custom icons
+- 📁 **Session logging** with exportable logs (.csv)
+- 🧠 **Stats per game**: total time, sessions, last play, and average
+- 🎨 **Customizable interface**:
+- Wallpapers per page
+- Themes and visual effects (blur, opacity)
+- 💾 **Local data storage** (no cloud)
+- 🖼️ **Responsive PWA dashboard** with real-time system status (CPU, RAM, GPU, network, ping)
+- 🛠️ **Automatic updates** via GitHub Releases
+- 📡 **Mobile access via local QR Code**
+- 📦 **Single installer** with built-in server and local monitor
 
-## 📦 Instalação
+## 📦 Installation
 
-- Baixe o instalador mais recente na aba *[Releases](https://github.com/guilhermealceu/steins-tracker-pro/releases)* do GitHub
-- Execute e siga as instruções
-- O app inicia automaticamente com o sistema
+- Download the latest installer from the *[Releases](https://github.com/guilhermealceu/steins-tracker-pro/releases)* tab on GitHub
+- Run and follow the instructions
+- The app starts automatically with the system
 
-## 🧪 Tecnologias
+## 🧪 Technologies
 
 - [Electron](https://www.electronjs.org/)
-- Node.js (embutido no app)
+- Node.js (built into the app)
 - Express, Chart.js, systeminformation
-- HTML5 + CSS3 + JS (sem frameworks pesados)
+- HTML5 + CSS3 + JS (no heavy frameworks)
 
 ---
-
-**Desenvolvido por [Guilherme Dill](https://github.com/guilhermealceu)**  
+**Developed by [Guilherme] Dill](https://github.com/guilhermealceu)**
 🔗 GitHub: [Steins;Tracker](https://github.com/guilhermealceu/Steins-Tracker)
