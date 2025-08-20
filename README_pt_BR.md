@@ -1,43 +1,59 @@
-# 🕹️ Steins;Tracker
+# Steins;Tracker
 
-**Steins;Tracker** é um aplicativo desktop para Windows que registra automaticamente o tempo que você passa em jogos e exibe estatísticas detalhadas em um painel interativo e visual.
+Steins;Tracker e um aplicativo desktop para Windows que monitora o tempo de jogo 100% localmente e exibe tudo em um dashboard visual e interativo. Foco em privacidade, desempenho e simplicidade.
 
-## ✨ Funcionalidades Principais
+Gratis: https://github.com/guilhermealceu/steins-tracker-pro/releases
+Comprar (DLCs/Pro): https://pagbuypix.discloud.app/
 
-- ⏱️ **Monitoramento automático de jogos** em segundo plano
-- 📊 **Dashboard completo** com:
-  - Gráficos de tempo jogado
-  - Média diária
-  - Progresso da meta de horas
-  - Heatmap anual de atividade
-- 🎮 **Gerenciador de jogos**:
-  - Adição manual ou por scanner de pastas
-  - Nomes amigáveis e ícones personalizados
-- 📁 **Registro de sessões** com logs exportáveis (.csv)
-- 🧠 **Estatísticas por jogo**: tempo total, sessões, última jogada e média
-- 🎨 **Interface Personalizável**:
-  - Wallpapers por página
-  - Temas e efeitos visuais (blur, opacidade)
-- 💾 **Armazenamento local** dos dados (sem nuvem)
-- 🖼️ **Dashboard PWA responsivo** com status do sistema em tempo real (CPU, RAM, GPU, rede, ping)
-- 🛠️ **Atualizações automáticas** via GitHub Releases
-- 📡 **Acesso pelo celular via QR Code local**
-- 📦 **Instalador único** com servidor e monitor local embutidos
+## Principais recursos
 
-## 📦 Instalação
+- Deteccao automatica de jogos em segundo plano
+- Painel de estatisticas
+  - Tempo total por jogo
+  - Medias diarias e historico por periodo
+  - Sessoes, streaks e metas
+  - Heatmap anual e graficos radiais
+- Visao por jogo
+  - Tempo total, numero de sessoes, ultima jogada
+  - Adicao manual ou por pasta
+  - Nomes amigaveis e icones personalizados
+- Exportacao de logs (CSV)
+- Interface personalizavel
+  - Wallpapers por pagina
+  - Temas, blur, opacidade e modo escuro
+  - Ocultar elementos de UI
+- Wizard de boas-vindas com deteccao automatica de idioma
+- Importacao de visuais e configuracoes via JSON
+- Monitoramento de sistema
+  - CPU, RAM, GPU
+  - Temperaturas (CPU/GPU)
+  - Rede, ping e FPS
+- Acesso via celular (LAN)
+  - QR Code para abrir o dashboard na rede local
+  - Uso automatico do IP local
+- Dados locais apenas (privacidade)
+- Instalador tudo-em-um (servidor local e monitor embutidos; nao precisa Node.js)
+- Atualizacoes automaticas via GitHub Releases
+- Suporte a versao Pro/DLCs por token
 
-- Baixe o instalador mais recente na aba *[Releases](https://github.com/guilhermealceu/steins-tracker-pro/releases)* do GitHub
-- Execute e siga as instruções
-- O app inicia automaticamente com o sistema
+## Instalacao
 
-## 🧪 Tecnologias
+1. Baixe o instalador .exe mais recente em Releases.
+2. Execute o instalador e siga o assistente.
+3. Opcional: inicializar com o Windows.
 
-- [Electron](https://www.electronjs.org/)
-- Node.js (embutido no app)
-- Express, Chart.js, systeminformation
-- HTML5 + CSS3 + JS (sem frameworks pesados)
+Compatibilidade: Windows 10/11 64-bit.
 
----
+## Tecnologias
 
-**Desenvolvido por [Guilherme Dill](https://github.com/guilhermealceu)**  
-🔗 GitHub: [Steins;Tracker](https://github.com/guilhermealceu/Steins-Tracker)
+- Electron
+- Node.js (embutido)
+- Express, Chart.js, systeminformation, ping
+- HTML5 + CSS3 + JavaScript (vanilla)
+
+## Privacidade
+
+Todos os dados ficam salvos localmente na pasta de Documentos do usuario. Nada e enviado para servidores externos sem acao explicita.
+
+Desenvolvido por Guilherme Dill (https://github.com/guilhermealceu)
+Repositorio: https://github.com/guilhermealceu/steins-tracker-pro
