@@ -1,59 +1,59 @@
-# 🕹️ Steins;Tracker
+# Steins;Tracker
 
-**Steins;Tracker** is a powerful Windows desktop application that tracks your gaming time locally and shows it in a visual, interactive dashboard — optimized for gamers, privacy-conscious users, and enthusiasts.
+Steins;Tracker is a Windows desktop app that tracks your game time 100% locally and shows it in a visual, interactive dashboard. Focus on privacy, performance, and simplicity.
 
-->Free [steins-tracker-pro/releases](https://github.com/guilhermealceu/steins-tracker-pro/releases)
+Free: https://github.com/guilhermealceu/steins-tracker-pro/releases
+Buy (DLCs/Pro): https://pagbuypix.discloud.app/
 
-->Buy [https://steinstore.discloud.app/](https://pagbuypix.discloud.app/)
+## Main features
 
-## ✨ Main Features
-
-- ⏱️ **Automatic game detection** in the background
-- 📊 **Complete stats dashboard**:
-  - Game time tracking
-  - Daily averages
-  - Session logs and streaks
-  - Goal progress and play history
-  - Yearly heatmap and radar graphs
-- 🧠 **Per-game insights**:
-  - Total time, sessions, last play
-  - Manual or folder-based game addition
+- Automatic game detection in the background
+- Stats dashboard
+  - Total time per game
+  - Daily averages and period history
+  - Sessions, streaks, and goals
+  - Yearly heatmap and radial charts
+- Per game view
+  - Total time, session count, last played
+  - Manual or folder based game addition
   - Friendly names and custom icons
-- 📁 **Exportable logs** (CSV format)
-- 🎨 **Highly customizable UI**:
-  - Per-page wallpapers
+- Log export (CSV)
+- Customizable interface
+  - Per page wallpapers
   - Themes, blur, opacity, and dark mode
-  - Hide UI elements (header, slogan, etc)
-- 📦 **All-in-one installer**:
-  - Embedded local server and game monitor
-  - No Node.js required
-- 💡 **Welcome wizard** with language auto-detection
-- 📥 **Import system** for visuals and config via JSON
-- 🔧 **System monitoring**:
-  - CPU, RAM, GPU usage
-  - Temperatures (CPU & GPU)
-  - Network speed, ping and FPS
-- 📱 **Mobile dashboard access**:
-  - Scan a local QR Code
-  - Uses LAN IP automatically
-- 💾 **Local data storage only** (privacy focused)
-- 🚀 **Automatic updates** via GitHub Releases
-- 🔒 **Pro version support** with token activation
+  - Hide UI elements
+- Welcome wizard with automatic language detection
+- Import visuals and settings via JSON
+- System monitoring
+  - CPU, RAM, GPU
+  - Temperatures (CPU/GPU)
+  - Network speed, ping, and FPS
+- Mobile access over LAN
+  - QR Code to open the dashboard on the local network
+  - Automatic use of the local IP
+- Local only data (privacy)
+- All in one installer (embedded local server and monitor; no Node.js needed)
+- Automatic updates via GitHub Releases
+- Pro/DLC support via token activation
 
-## 📦 Installation
+## Installation
 
-1. Download the latest `.exe` installer from the **[Releases](https://github.com/guilhermealceu/steins-tracker-pro/releases)** page.
-2. Run the installer and follow the setup wizard.
-3. The app starts automatically with Windows.
+1. Download the latest .exe installer from Releases.
+2. Run the installer and follow the wizard.
+3. Optional: start with Windows.
 
-## 🔧 Technologies Used
+Compatibility: Windows 10/11 64 bit.
 
-- [Electron](https://www.electronjs.org/)
-- [Node.js](https://nodejs.org/) (bundled)
+## Tech
+
+- Electron
+- Node.js (bundled)
 - Express, Chart.js, systeminformation, ping
-- HTML5 + CSS3 + Vanilla JS
+- HTML5 + CSS3 + vanilla JavaScript
 
----
+## Privacy
 
-**Developed by [Guilherme Dill](https://github.com/guilhermealceu)**  
-🔗 GitHub: [Steins;Tracker](https://github.com/guilhermealceu/Steins-Tracker)
+All data is stored locally in the user's Documents folder. Nothing is sent to external servers without explicit action.
+
+Developed by Guilherme Dill (https://github.com/guilhermealceu)
+Repository: https://github.com/guilhermealceu/steins-tracker-pro
