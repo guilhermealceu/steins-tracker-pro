@@ -3,6 +3,7 @@
 Steins;Tracker is a Windows desktop app that tracks your game time 100% locally and shows it in a visual, interactive dashboard. Focus on privacy, performance, and simplicity.
 
 Free: https://github.com/guilhermealceu/steins-tracker-pro/releases
+
 Buy (DLCs/Pro): https://pagbuypix.discloud.app/
 
 ## Main features
